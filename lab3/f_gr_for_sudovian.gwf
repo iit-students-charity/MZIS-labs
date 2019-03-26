@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GWF version="2.0">
+    <staticSector>
+        <node type="node/const/group" idtf="language_group" shapeColor="0" id="161720832" parent="158651528" left="0" top="0" right="131" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="310.5" y="445.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/var/group" idtf="" shapeColor="0" id="161719248" parent="158651528" x="417.5" y="411.5" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="Sudovian" shapeColor="0" id="161719392" parent="158651528" left="0" top="0" right="80" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="509.5" y="372.04" haveBus="false" idtf_pos="0">
+            <content type="0" mime_type="" content_visibility="false" file_name=""/>
+        </node>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="136661272" parent="158651528" id_b="161720832" id_e="161719248" b_x="310.5" b_y="445.5" e_x="417.5" e_y="411.5" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/var/pos" idtf="" shapeColor="0" id="166474176" parent="158651528" id_b="161719248" id_e="161719392" b_x="417.5" b_y="411.5" e_x="509.5" e_y="372.04" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <contour type="" idtf="find_group_for_sudovian" shapeColor="0" id="158651528" parent="0" left="0" top="0" right="200" bottom="28" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10">
+            <points>
+                <point x="249.5" y="310.04"/>
+                <point x="254.5" y="483.04"/>
+                <point x="719.5" y="489.04"/>
+                <point x="731.5" y="319.04"/>
+            </points>
+        </contour>
+    </staticSector>
+</GWF>
